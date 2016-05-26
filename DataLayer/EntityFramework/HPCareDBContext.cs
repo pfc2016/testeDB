@@ -1,6 +1,7 @@
 ﻿using DataLayer.Entities;
 using DataLayer.Entities.DiagnosisEntities;
 using DataLayer.Entities.MCDT;
+using DataLayer.Entities.MCDTEntities;
 using DataLayer.Entities.PatientEntities;
 using DataLayer.Entities.TreatmentEntities;
 using DataLayer.Entities.Visitas;
@@ -17,6 +18,35 @@ namespace DataLayer.EntityFramework {
 
         public HPCareDBContext() : base("HPCareDBContext") { }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder) {
+            modelBuilder.Entity<KFT>().ToTable("KFTs");
+            modelBuilder.Entity<LFT>().ToTable("LFTs");
+            modelBuilder.Entity<LymphocytesSubsets>().ToTable("LymphocytesSubsets");
+            modelBuilder.Entity<PlateletsCount>().ToTable("PlateletsCount");
+            modelBuilder.Entity<RBCIndices>().ToTable("RBCIndices");
+            modelBuilder.Entity<RBCS>().ToTable("RBCS");
+            modelBuilder.Entity<ViralLoad>().ToTable("ViralLoad");
+            modelBuilder.Entity<WBCS>().ToTable("WBCS");
+            modelBuilder.Entity<PhysicalExam>().ToTable("PhysicalExam");
+            modelBuilder.Entity<PsychiatricExam>().ToTable("PsychiatricExam");
+            modelBuilder.Entity<RegularExam>().ToTable("RegularExam");
+            modelBuilder.Entity<ARV>().ToTable("ARV");
+            modelBuilder.Entity<NonARV>().ToTable("NonARV");
+            modelBuilder.Entity<Staff>().ToTable("Staff");
+            modelBuilder.Entity<Patient>().ToTable("Patient");
+            modelBuilder.Entity<FirstVisit>().ToTable("FirstVisit");
+            modelBuilder.Entity<HomeVisit>().ToTable("HomeVisit");
+            modelBuilder.Entity<SubsequentVisit>().ToTable("SubsequentVisit");
+
+
+
+
+
+
+
+        }
+
+    
         public DbSet<CID> CIDs {
             get; set;
         }
@@ -41,12 +71,14 @@ namespace DataLayer.EntityFramework {
             get; set;
         }
 
-        //kft
-        //labexams
-        //lft
-        //lymphocytessubsets
-        //mcdt
+        public DbSet<LabExams> LabExams {
+            get; set;
+        }
 
+        public DbSet<MCDT> MCDTs {
+            get; set;
+        }
+        
         public DbSet<MCDTManager> MCDTManagers {
             get; set;
         }
@@ -54,15 +86,6 @@ namespace DataLayer.EntityFramework {
         public DbSet<MCDTStaffManager> MCDTStaffManagers {
             get; set;
         }
-
-        //physicalexam
-        //plateletscount
-        //phychiatricexam
-        //rbcindices
-        //rbcs
-        //regularexam
-        //viralload
-        //wbcs
 
         public DbSet<Admission> Admissions {
             get; set;
@@ -87,22 +110,24 @@ namespace DataLayer.EntityFramework {
         public DbSet<TreatmentPlan> TreatmentPlans {
             get; set;
         }
-
-        //arv
-        //arvclass
-        //medication
-        public DbSet<MedicationManager> MedicationManagers {
+    
+        public DbSet<Medication> Medications {
             get; set;
         }
 
-        //nonarv
-
+        public DbSet<MedicationManager> MedicationManagers {
+            get; set;
+        }
 
         public DbSet<Therapy> Therapies {
             get; set;
         }
 
         public DbSet<TherapyManager> TherapyManagers {
+            get; set;
+        }
+
+        public DbSet<User> Users {
             get; set;
         }
 
@@ -126,8 +151,6 @@ namespace DataLayer.EntityFramework {
             get; set;
         }
 
-        //patient
-
         public DbSet<RiskFactors> RiskFactors {
             get; set;
         }
@@ -136,27 +159,21 @@ namespace DataLayer.EntityFramework {
             get; set;
         }
 
-        //staff
-        //user
-
         public DbSet<ClinicRegistryManager> ClinicRegistryManagers {
             get; set;
         }
 
-        //firstVisit
-        //HomeVisit
+        public DbSet<Visit> Visits {
+            get; set;
+        }
 
         public DbSet<HomeVisitManager> HomeVisitManagers {
             get; set;
         }
 
-        //SubsequentVisit
-        //visit
-
         public DbSet<VisitManager> VisitManagers {
             get; set;
         }
         
-        //COMENTARIO INFORMATIVO 
     }
 }
