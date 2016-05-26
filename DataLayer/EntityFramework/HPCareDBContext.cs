@@ -156,6 +156,7 @@ namespace DataLayer.EntityFramework {
         public DbSet<VisitManager> VisitManagers {
             get; set;
         }
-
+        
+        //COMENTARIO INFORMATIVO 
     }
 }
