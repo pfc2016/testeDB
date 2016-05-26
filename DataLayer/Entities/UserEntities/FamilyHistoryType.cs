@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer {
-    public class Class1 {
+namespace DataLayer.Entities.UserEntities {
+    public enum FamilyHistoryType {
+
+        HeartProblems,
+        Cancer
+
     }
 }
