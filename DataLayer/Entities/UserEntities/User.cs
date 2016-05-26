@@ -27,11 +27,15 @@ namespace DataLayer.Entities {
             get; set;
         }
 
-        public int MyProperty {
+        public string Email {
             get; set;
         }
 
-        public string Email {
+        public string Genre {
+            get; set;
+        }
+
+        public string MaritalStatus {
             get; set;
         }
 

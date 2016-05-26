@@ -1,19 +1,16 @@
-﻿using System;
+﻿using DataLayer.Entities.MCDT;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.Entities.TreatmentEntities {
-    public class ARV : Medication{
+namespace DataLayer.Entities.MCDTEntities {
+    public class ViralLoad : LabExams {
 
         [Key]
-        public int ARV_id {
-            get; set;
-        }
-
-        public ARVClass ARV_class {
+        public int Viral_load_id {
             get; set;
         }
 

@@ -13,5 +13,44 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
+        public string Observations {
+            get; set;
+        }
+
+        /// <summary>
+        /// Fazer enum 
+        /// </summary>
+        public string Humor {
+            get; set;
+        }
+
+        /// <summary>
+        /// Fazer enum 
+        /// </summary>
+        public string Cognition {
+            get; set;
+        }
+
+        /// <summary>
+        /// Fazer enum 
+        /// </summary>
+        public string Perception {
+            get; set;
+        }
+
+        /// <summary>
+        /// Fazer enum 
+        /// </summary>
+        public string Thoughts {
+            get; set;
+        }
+
+        /// <summary>
+        /// Fazer enum 
+        /// </summary>
+        public string Behavior {
+            get; set;
+        }
+
     }
 }

@@ -9,7 +9,10 @@ namespace DataLayer.Entities {
 
         Doctor,
         Nurse,
-        LabTechnician
+        LabTechnician, 
+        Student, 
+        Driver, 
+        Other
 
     }
 }

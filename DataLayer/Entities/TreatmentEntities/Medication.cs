@@ -25,11 +25,27 @@ namespace DataLayer.Entities.TreatmentEntities {
             get; set;
         }
 
-        public int Medication_quantity {
+        public int Medication_dosage {
             get; set;
         }
 
+        public MedicationFrequency Medication_frequency {
+            get; set;
+        }
+
+
         public MedicationAdministration Medication_administration {
+            get; set;
+        }
+
+        /// <summary>
+        /// Navigation prop
+        /// </summary>
+        public MedicationManager Medication_manager {
+            get; set;
+        }
+
+        public Treatment MyProperty {
             get; set;
         }
 

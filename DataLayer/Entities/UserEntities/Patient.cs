@@ -58,5 +58,9 @@ namespace DataLayer.Entities {
         public List<PatientDiagnosisManager> Patient_diagnosis_manager {
             get; set;
         }
+
+        public NextOfKin Patient_next_of_kin {
+            get; set;
+        }
     }
 }

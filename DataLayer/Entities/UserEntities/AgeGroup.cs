@@ -14,11 +14,13 @@ namespace DataLayer.Entities {
             get; set;
         }
 
+        /// <summary>
+        /// Vai ser inserido através de trigger
+        /// 0-17 Criança
+        /// 18-64 Adulto
+        /// 65+ Idoso
+        /// </summary>
         public string Description {
-            get; set;
-        }
-
-        public int Age {
             get; set;
         }
 

@@ -21,6 +21,10 @@ namespace DataLayer.Entities.TreatmentEntities {
             get; set;
         }
 
+        public List<Medication> Medications {
+            get; set;
+        }
+
 
 
     }

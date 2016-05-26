@@ -6,16 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.TreatmentEntities {
-    public class ARV : Medication{
+    public enum ARVClass {
 
-        [Key]
-        public int ARV_id {
-            get; set;
-        }
-
-        public ARVClass ARV_class {
-            get; set;
-        }
+        MultiClassCombinationDrugs,
+        NRTIS,
+        NNRTIS,
+        ProteaseInhibitors, 
+        EntryInhibitors, 
+        IntegraseInhibitors
 
     }
 }

@@ -1,24 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.PatientEntities {
-    public class TreatmentPlan {
+    public class NextOfKin {
 
-        [Key]
-        public int Treatment_id {
+        public int NextOfKin_id {
             get; set;
         }
 
-        public TreatmentType Treatment_type {
+        /// <summary>
+        /// Navigation prop
+        /// </summary>
+        public NextOfKinManager Next_of_kin_manager {
             get; set;
         }
 
-        public Calendar MyProperty {
-            get; set;
-        }
     }
 }

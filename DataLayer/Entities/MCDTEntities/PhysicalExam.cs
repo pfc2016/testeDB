@@ -12,5 +12,21 @@ namespace DataLayer.Entities.MCDT {
         public int PhysicalExam_id {
             get; set;
         }
+
+        public float Height {
+            get; set;
+        }
+
+        public float Weigth {
+            get; set;
+        }
+
+        public int Blood_pressure {
+            get; set;
+        }
+
+        public float Body_temperature {
+            get; set;
+        }
     }
 }

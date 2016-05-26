@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.MCDT {
-    public class RBCS {
+    public class RBCS : LabExams{
 
         [Key]
         public int RBCD_id {

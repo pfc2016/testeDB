@@ -1,27 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.PatientEntities {
-    public class Admission {
+    public class Intervention {
 
-        [Key]
-        public int Admission_id {
+        public int Intervention_id {
             get; set;
         }
 
-        public DateTime Admission_date_in {
+        public DateTime Intervention_start_day {
             get; set;
         }
 
-        public DateTime Admission_date_out {
+        public DateTime Intervention_end_day {
             get; set;
         }
 
-        public string Admission_cause {
+        public Staff Intervention_staff {
+            get; set;
+        }
+
+        public Calendar Intervention_calendar {
             get; set;
         }
 

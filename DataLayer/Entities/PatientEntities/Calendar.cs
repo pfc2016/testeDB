@@ -1,24 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.PatientEntities {
-    public class TreatmentPlan {
+    public class Calendar {
 
-        [Key]
-        public int Treatment_id {
+        public int Calendar_id {
             get; set;
         }
 
-        public TreatmentType Treatment_type {
+        public List<Intervention> Calendar_interventions {
             get; set;
         }
 
-        public Calendar MyProperty {
-            get; set;
-        }
     }
 }
