@@ -11,7 +11,7 @@ namespace DataLayer.Entities.PatientEntities {
             get; set;
         }
 
-        public List<Intervention> Calendar_interventions {
+        public virtual List<Intervention> Calendar_interventions {
             get; set;
         }
 

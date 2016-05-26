@@ -13,7 +13,7 @@ namespace DataLayer.Entities {
             get; set;
         }
 
-        public List<RiskFactors> RiskFactors {
+        public virtual List<RiskFactors> RiskFactors {
             get; set;
         }
 

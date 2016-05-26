@@ -36,18 +36,18 @@ namespace DataLayer.Entities {
         /// <summary>
         /// O doente vai ter vários tipos de MCDTs
         /// </summary>
-        public List<MCDTManager> MCDT_manager {
+        public virtual List<MCDTManager> MCDT_manager {
             get; set;
         }
 
         /// <summary>
         /// O doente vai ter vários registos clínicos 
         /// </summary>
-        public List<ClinicRegistryManager> Clinic_registry {
+        public virtual List<ClinicRegistryManager> Clinic_registry {
             get; set;
         }
 
-        public TreatmentPlan Patient_treatment_plan {
+        public virtual TreatmentPlan Patient_treatment_plan {
             get; set;
         }
 
@@ -55,7 +55,7 @@ namespace DataLayer.Entities {
             get; set;
         }
 
-        public List<PatientDiagnosisManager> Patient_diagnosis_manager {
+        public virtual List<PatientDiagnosisManager> Patient_diagnosis_manager {
             get; set;
         }
 

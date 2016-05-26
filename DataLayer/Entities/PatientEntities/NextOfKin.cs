@@ -14,7 +14,7 @@ namespace DataLayer.Entities.PatientEntities {
         /// <summary>
         /// Navigation prop
         /// </summary>
-        public NextOfKinManager Next_of_kin_manager {
+        public virtual NextOfKinManager Next_of_kin_manager {
             get; set;
         }
 

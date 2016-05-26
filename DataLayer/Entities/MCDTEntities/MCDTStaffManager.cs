@@ -13,7 +13,7 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
-        public List<Staff> Staff {
+        public virtual List<Staff> Staff {
             get; set;
         }
 

@@ -13,7 +13,7 @@ namespace DataLayer.Entities {
             get; set;
         }
 
-        public List<FamilyHistory> FamilyHistory {
+        public virtual List<FamilyHistory> FamilyHistory {
             get; set;
         }
     }

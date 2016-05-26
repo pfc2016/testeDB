@@ -13,7 +13,7 @@ namespace DataLayer.Entities.TreatmentEntities {
             get; set;
         }
 
-        public List<Therapy> Therapies {
+        public virtual List<Therapy> Therapies {
             get; set;
         }
 

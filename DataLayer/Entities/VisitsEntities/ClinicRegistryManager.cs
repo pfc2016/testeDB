@@ -24,7 +24,7 @@ namespace DataLayer.Entities.Visitas {
         /// <summary>
         /// O doente pode ter vários medicamentos 
         /// </summary>
-        public List<MedicationManager> Medication_manager {
+        public virtual List<MedicationManager> Medication_manager {
             get; set;
         }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataLayer.Entities.PatientEntities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -33,7 +34,6 @@ namespace DataLayer.Entities.TreatmentEntities {
             get; set;
         }
 
-
         public MedicationAdministration Medication_administration {
             get; set;
         }
@@ -41,11 +41,7 @@ namespace DataLayer.Entities.TreatmentEntities {
         /// <summary>
         /// Navigation prop
         /// </summary>
-        public MedicationManager Medication_manager {
-            get; set;
-        }
-
-        public Treatment MyProperty {
+        public virtual MedicationManager Medication_manager {
             get; set;
         }
 

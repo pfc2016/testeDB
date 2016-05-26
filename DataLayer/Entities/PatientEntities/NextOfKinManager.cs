@@ -11,7 +11,7 @@ namespace DataLayer.Entities.PatientEntities {
             get; set;
         }
 
-        public List<NextOfKin> Next_of_kin {
+        public virtual List<NextOfKin> Next_of_kin {
             get; set;
         }
 

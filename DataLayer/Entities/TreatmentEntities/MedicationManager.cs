@@ -17,11 +17,11 @@ namespace DataLayer.Entities.TreatmentEntities {
         /// <summary>
         /// Navigation prop
         /// </summary>
-        public ClinicRegistryManager Clinic_registry_manager {
+        public virtual ClinicRegistryManager Clinic_registry_manager {
             get; set;
         }
 
-        public List<Medication> Medications {
+        public virtual List<Medication> Medications {
             get; set;
         }
 

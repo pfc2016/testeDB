@@ -16,7 +16,7 @@ namespace DataLayer.Entities.DiagnosisEntities {
         /// <summary>
         /// Navigation prop
         /// </summary>
-        public Patient Patient_diagnosis {
+        public virtual Patient Patient_diagnosis {
             get; set;
         }
     }

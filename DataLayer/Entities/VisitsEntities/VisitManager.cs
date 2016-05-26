@@ -12,8 +12,7 @@ namespace DataLayer.Entities.Visitas {
         public int VisitManager_id {
             get; set;
         }
-        
-
+    
     }
 
 }

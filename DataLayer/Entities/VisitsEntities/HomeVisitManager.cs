@@ -13,6 +13,5 @@ namespace DataLayer.Entities.Visits {
             get; set;
         }
 
-        
     }
 }

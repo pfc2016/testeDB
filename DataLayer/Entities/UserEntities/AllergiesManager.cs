@@ -13,7 +13,7 @@ namespace DataLayer.Entities {
             get; set;
         }
 
-        public List<Allergies> Allergies {
+        public virtual List<Allergies> Allergies {
             get; set;
         }
     }
