@@ -1,4 +1,5 @@
 ﻿using DataLayer.Entities.MCDT;
+using DataLayer.Entities.Visitas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -27,7 +28,13 @@ namespace DataLayer.Entities {
         public MCDTStaffManager MCDTStaffManager {
             get; set;
         }
-
+        /// <summary>
+        /// Navigation prop
+        /// </summary>
+        public VisitManager visit_Manager
+        {
+            get; set;
+        }
 
     }
 }
