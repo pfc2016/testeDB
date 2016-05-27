@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.ComponentModel.DataAnnotations;
 namespace DataLayer.Entities.MCDT {
-    public class MCDT {
-
+    public abstract class MCDT {
+        [Key]
+        public int MCDT_ID { get; set; }
         public Units MCDT_units {
             get; set;
         }
@@ -19,8 +20,8 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
-        public MCDTManager MCDT_Manager {
+       /* public MCDTManager MCDT_Manager {
             get; set;
-        }
+        }*/
     }
 }
