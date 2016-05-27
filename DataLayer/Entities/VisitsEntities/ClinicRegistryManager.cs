@@ -35,6 +35,10 @@ namespace DataLayer.Entities.Visitas {
         public TherapyManager Therapy_manager {
             get; set;
         }
+        public List<VisitManager> visit_Manager
+        {
+            get; set;
+        }
 
     }
 }
