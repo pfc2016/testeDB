@@ -13,13 +13,26 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
-        public List<MCDT> MCDT_Manager {
+        public MCDT mcdt {
             get; set;
         }
 
         public Patient Patient {
             get; set;
         }
+        /// <summary>
+        /// UM MCDT pode ser realizado pelo mais de um staff
+        /// </summary>
+
+
+
+
+
+        public List< MCDTStaffManager> MCDTStaffManager
+        {
+            get; set;
+        }
+
 
     }
 }
