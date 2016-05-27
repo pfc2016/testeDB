@@ -16,7 +16,13 @@ namespace DataLayer.Entities.MCDT {
         public virtual List<Staff> Staff {
             get; set;
         }
+       /**
+       *navigation prop
+       */
 
-    
+        public virtual MCDTManager mcdtManager
+        {
+            get; set;
+        }
     }
 }
