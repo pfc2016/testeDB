@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.ComponentModel.DataAnnotations;
 namespace DataLayer.Entities.PatientEntities {
     public class Intervention {
-
+        [Key]
         public int Intervention_id {
             get; set;
         }
