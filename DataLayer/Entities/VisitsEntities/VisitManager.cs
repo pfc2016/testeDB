@@ -12,7 +12,14 @@ namespace DataLayer.Entities.Visitas {
         public int VisitManager_id {
             get; set;
         }
-    
+        /// <summary>
+        /// navigation prop
+        /// </summary>
+
+        public ClinicRegistryManager ClinicRegistry_Manager
+        {
+            get; set;
+        }
     }
 
 }
