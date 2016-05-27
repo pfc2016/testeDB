@@ -12,6 +12,18 @@ namespace DataLayer.Entities.Visits {
         public int HomeVisitManager_id {
             get; set;
         }
+        public  HomeVisit home_Visit
+        {
+            get; set;
+        }
+        /// <summary>
+        /// um visita pode ter mais de um staff
+        /// </summary>
+        public List<Staff> staff_homeVisit
+        {
+            get; set;
+        }
+
 
     }
 }
