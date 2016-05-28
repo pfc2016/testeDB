@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.DiagnosisEntities {
+    /// <summary>
+    /// unused
+    /// </summary>
     public class PatientDiagnosisManager {
 
         [Key]
