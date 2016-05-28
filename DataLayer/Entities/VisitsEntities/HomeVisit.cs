@@ -1,4 +1,5 @@
-﻿using DataLayer.Entities.Visitas;
+﻿using DataLayer.Entities.MCDT;
+using DataLayer.Entities.Visitas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -13,6 +14,12 @@ namespace DataLayer.Entities.Visits {
         public int HomeVisit_id {
             get; set;
         }
-
+        /// <summary>
+        /// physicalExam and psychiatricExam
+        /// </summary>
+        public List <MCDTStaffManager> homeMcdtStaffManager
+        {
+            get; set;
+        }
     }
 }
