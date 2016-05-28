@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataLayer.Entities.MCDT;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -6,6 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.Visits {
+    /// <summary>
+    /// unused
+    /// </summary>
     public class HomeVisitManager {
 
         [Key]
@@ -23,7 +27,6 @@ namespace DataLayer.Entities.Visits {
         {
             get; set;
         }
-
-
+       
     }
 }
