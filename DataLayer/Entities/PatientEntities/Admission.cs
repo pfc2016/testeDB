@@ -24,6 +24,7 @@ namespace DataLayer.Entities.PatientEntities {
         public string Admission_cause {
             get; set;
         }
+       
 
     }
 }
