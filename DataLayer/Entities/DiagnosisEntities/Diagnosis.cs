@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataLayer.Entities.Visitas;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -18,6 +19,13 @@ namespace DataLayer.Entities.DiagnosisEntities {
         }
 
         public CIDCode Diagnosis_CID_code {
+            get; set;
+        }
+        /// <summary>
+        /// navigation prop
+        /// </summary>
+        public virtual ClinicRegistryManager ClinicRegistry_Manager
+        {
             get; set;
         }
     }
