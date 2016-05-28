@@ -17,8 +17,9 @@ namespace DataLayer.Entities.PatientEntities {
             get; set;
         }
 
-        public Calendar MyProperty {
+        public Calendar calender {
             get; set;
         }
+       
     }
 }
