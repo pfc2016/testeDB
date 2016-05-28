@@ -13,6 +13,9 @@ namespace DataLayer.Entities.Visits {
         public int SubsequentVisit_id {
             get; set;
         }
-
+        public ClinicRegistryManager ClinicRegistry_Manager
+        {
+            get; set;
+        }
     }
 }
