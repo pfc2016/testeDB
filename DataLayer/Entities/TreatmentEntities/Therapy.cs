@@ -24,5 +24,13 @@ namespace DataLayer.Entities.TreatmentEntities {
         public DateTime Therapy_end_hour {
             get; set;
         }
+        /// <summary>
+        /// nav prop
+        /// </summary>
+        public virtual  TherapyManager therapyManager
+        {
+            get; set;
+        }
+
     }
 }
