@@ -12,7 +12,10 @@ namespace DataLayer.Entities.Visitas {
         public int FirstVisit_id {
             get; set;
         }
-
+        public ClinicRegistryManager ClinicRegistry_Manager
+        {
+            get; set;
+        }
 
     }
 }
