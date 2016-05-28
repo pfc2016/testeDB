@@ -20,6 +20,7 @@ namespace DataLayer.Entities.Visitas {
         public DateTime Visit_Hour {
             get; set;
         }
-
+       
+       
     }
 }
