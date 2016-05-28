@@ -25,16 +25,13 @@ namespace DataLayer.Entities {
         /// <summary>
         /// Navigation prop
         /// </summary>
-        public MCDTStaffManager MCDTStaffManager {
+        public virtual MCDTStaffManager MCDTStaffManager {
             get; set;
         }
         /// <summary>
         /// Navigation prop
         /// </summary>
-        public VisitManager visit_Manager
-        {
-            get; set;
-        }
+      
 
     }
 }
