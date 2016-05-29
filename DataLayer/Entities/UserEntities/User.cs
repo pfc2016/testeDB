@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using DataLayer.Entities.UserEntities;
+
 namespace DataLayer.Entities {
     public abstract class User {
         [Key]
@@ -31,11 +33,11 @@ namespace DataLayer.Entities {
             get; set;
         }
 
-        public string Genre {
+        public Gender gender {
             get; set;
         }
 
-        public string MaritalStatus {
+        public MaritalStatus MaritalStatus {
             get; set;
         }
 
