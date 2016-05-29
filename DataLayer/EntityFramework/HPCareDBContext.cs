@@ -67,9 +67,9 @@ namespace DataLayer.EntityFramework {
             get; set;
         }
 
-        public DbSet<PatientDiagnosisManager> PatientDiagnosisManagers {
+        /*public DbSet<PatientDiagnosisManager> PatientDiagnosisManagers {
             get; set;
-        }
+        }*/
 
         public DbSet<LabExams> LabExams {
             get; set;
@@ -166,10 +166,10 @@ namespace DataLayer.EntityFramework {
         public DbSet<Visit> Visits {
             get; set;
         }
-
+        /*
         public DbSet<HomeVisitManager> HomeVisitManagers {
             get; set;
-        }
+        }*/
 
         public DbSet<VisitManager> VisitManagers {
             get; set;
