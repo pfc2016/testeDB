@@ -4,13 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using DataLayer.Entities.UserEntities;
+
 namespace DataLayer.Entities.PatientEntities {
-    public class NextOfKin {
+    public class NextOfKin:Person {
         [Key]
         public int NextOfKin_id {
             get; set;
         }
-
+        [Key]
+        public NOFkinRelationShip nextOfKin_relationship
+        {
+            get; set;
+        }
         /// <summary>
         /// Navigation prop
         /// </summary>
