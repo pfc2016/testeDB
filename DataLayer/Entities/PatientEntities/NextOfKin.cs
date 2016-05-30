@@ -12,7 +12,7 @@ namespace DataLayer.Entities.PatientEntities {
         public int NextOfKin_id {
             get; set;
         }
-        [Key]
+        
         public NOFkinRelationShip nextOfKin_relationship
         {
             get; set;
