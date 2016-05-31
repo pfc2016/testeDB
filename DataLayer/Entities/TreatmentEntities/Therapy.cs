@@ -27,7 +27,7 @@ namespace DataLayer.Entities.TreatmentEntities {
         /// <summary>
         /// nav prop
         /// </summary>
-        public virtual  TherapyManager therapyManager
+        public virtual  Therapy therapy
         {
             get; set;
         }
