@@ -13,19 +13,19 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
-        public Units Basophil {
+        public double Basophil {
             get; set;
         }
 
-        public Units Eosinophil {
+        public double Eosinophil {
             get; set;
         }
 
-        public Units Monocytes {
+        public double Monocytes {
             get; set;
         }
 
-        public Units Neutrophil {
+        public double Neutrophil {
             get; set;
         }
     }
