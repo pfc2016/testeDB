@@ -8,10 +8,7 @@ using DataLayer.Entities.UserEntities;
 
 namespace DataLayer.Entities.PatientEntities {
     public class NextOfKin:Person {
-        [Key]
-        public int NextOfKin_id {
-            get; set;
-        }
+      
         
         public NOFkinRelationShip nextOfKin_relationship
         {
