@@ -21,13 +21,12 @@ namespace DataLayer.Entities {
             get; set;
         }
 
-        public AllergiesManager Allergies_Manager {
-            get; set;
-        }
-
         public AllergyCategory AllergyCategory {
             get; set;
         }
+        public virtual AllergiesManager Allergies_Manager {
+            get; set;
+        }
 
-    }
+}
 }
