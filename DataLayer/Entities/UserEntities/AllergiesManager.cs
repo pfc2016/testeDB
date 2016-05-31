@@ -16,5 +16,6 @@ namespace DataLayer.Entities {
         public virtual List<Allergies> Allergies {
             get; set;
         }
+        
     }
 }
