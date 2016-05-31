@@ -14,5 +14,9 @@ namespace DataLayer.Entities.MCDTEntities {
             get; set;
         }
 
+        public  double value
+        {
+            get; set;
+        }
     }
 }
