@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDT {
     public class PsychiatricExam : MCDT{
 
-        [Key]
+     /*   [Key]
         public int PsychiatricExam_id {
             get; set;
-        }
+        */
 
         public string Observations {
             get; set;
