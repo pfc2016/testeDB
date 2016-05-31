@@ -13,23 +13,23 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
-        public Units SGT {
+        public double SGT {
             get; set;
         }
 
-        public Units AST {
+        public double AST {
             get; set;
         }
 
-        public Units LDH {
+        public double LDH {
             get; set;
         }
 
-        public Units Alkaline {
+        public double Alkaline {
             get; set;
         }
 
-        public Units Bilirubin {
+        public double Bilirubin {
             get; set;
         }
 
