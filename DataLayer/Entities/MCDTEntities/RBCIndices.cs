@@ -13,31 +13,31 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
-        public Units MCH {
+        public double MCH {
             get; set;
         }
 
-        public Units MCHC {
+        public double MCHC {
             get; set;
         }
 
-        public Units MCV {
+        public double MCV {
             get; set;
         }
 
-        public Units Amylase {
+        public  double Amylase {
             get; set;
         }
 
-        public Units Cholesterol {
+        public double Cholesterol {
             get; set;
         }
 
-        public Units CPK {
+        public double CPK {
             get; set;
         }
 
-        public Units Globulin {
+        public double Globulin {
             get; set;
         }
 
