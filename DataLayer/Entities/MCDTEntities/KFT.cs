@@ -8,12 +8,7 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDT {
     public class KFT : LabExams {
 
-        [Key]
-        public int KFT_id {
-            get; set;
-        }
        
-
         public double BUN {
             get; set;
         }
