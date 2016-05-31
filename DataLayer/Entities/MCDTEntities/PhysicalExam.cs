@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDT {
     public class PhysicalExam : MCDT {
 
-        [Key]
+     /*   [Key]
         public int PhysicalExam_id {
             get; set;
-        }
+        }*/
 
         public float Height {
             get; set;
