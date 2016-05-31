@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.MCDT {
-    public class PlateletsCount {
+    public class PlateletsCount:LabExams {
 
   /*      [Key]
         public int PlateletsCount_id {
