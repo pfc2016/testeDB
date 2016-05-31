@@ -13,7 +13,7 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
-        public Units Count {
+        public double Count {
             get; set;
         }
 
