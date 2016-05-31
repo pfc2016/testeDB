@@ -13,11 +13,11 @@ namespace DataLayer.Entities.MCDT {
             get; set;
         }
 
-        public Units HB {
+        public double HB {
             get; set;
         }
 
-        public Units HCT {
+        public double HCT {
             get; set;
         }
     }
