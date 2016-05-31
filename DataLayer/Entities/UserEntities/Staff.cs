@@ -14,10 +14,7 @@ namespace DataLayer.Entities {
             get; set;
         }*/
 
-        [Key]
-        public int Staff_id {
-            get; set;
-        }
+       
 
         public ProfessionalsType ProfessionalType {
             get; set;
