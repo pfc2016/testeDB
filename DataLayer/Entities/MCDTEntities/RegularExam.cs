@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDTEntities {
     public class RegularExam : PhysicalExam {
 
-        public int RegularExam_id {
+     /*   public int RegularExam_id {
             get; set;
-        }
+        }*/
 
         public KFT KFT_exam {
             get; set;
