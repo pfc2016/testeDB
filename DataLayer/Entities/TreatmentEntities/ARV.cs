@@ -8,11 +8,6 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.TreatmentEntities {
     public class ARV : Medication{
 
-        [Key]
-        public int ARV_id {
-            get; set;
-        }
-
         public ARVClass ARV_class {
             get; set;
         }
