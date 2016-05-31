@@ -12,20 +12,23 @@ namespace DataLayer.Entities.MCDT {
         public int Lymphocytes_id {
             get; set;
         }
-
-        public Units CD3 {
+        public double Lymphocytes_units
+        {
+            get; set;
+        }
+        public double CD3 {
             get; set;
         }
 
-        public Units CD4 {
+        public double CD4 {
             get; set;
         }
 
-        public Units CD8 {
+        public double CD8 {
             get; set;
         }
 
-        public Units T_lymphocytes {
+        public  double T_lymphocytes {
             get; set;
         }
     }
