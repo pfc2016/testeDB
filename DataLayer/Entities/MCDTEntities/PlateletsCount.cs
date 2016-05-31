@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDT {
     public class PlateletsCount {
 
-        [Key]
+  /*      [Key]
         public int PlateletsCount_id {
             get; set;
-        }
+        }*/
 
         public double Count {
             get; set;
