@@ -1,4 +1,5 @@
-﻿using DataLayer.Entities.Visitas;
+﻿using DataLayer.Entities.MCDTEntities;
+using DataLayer.Entities.Visitas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -9,11 +10,11 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.Visits {
     public class SubsequentVisit : Visit{
 
-        [Key]
-        public int SubsequentVisit_id {
+        public ClinicRegistryManager ClinicRegistry_Manager
+        {
             get; set;
         }
-        public ClinicRegistryManager ClinicRegistry_Manager
+        public  RegularExam regularExam
         {
             get; set;
         }
