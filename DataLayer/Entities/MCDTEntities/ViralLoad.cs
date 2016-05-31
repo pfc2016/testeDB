@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDTEntities {
     public class ViralLoad : LabExams {
 
-        [Key]
+      /*  [Key]
         public int Viral_load_id {
             get; set;
-        }
+        }*/
 
         public  double value
         {
