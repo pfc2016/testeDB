@@ -4,6 +4,7 @@ using DataLayer.Entities.TreatmentEntities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace DataLayer.Entities.Visitas {
     public class ClinicRegistryManager {
 
         [Key]
-        public int ClinicRegistryManager_id {
+        public int ClinicRegistryManagerId {
             get; set;
         }
 
@@ -25,6 +26,7 @@ namespace DataLayer.Entities.Visitas {
         /// <summary>
         /// doente pode ter mais de um doenca
         /// </summary>
+        [Required]
         public virtual List<MCDTManager> MCDT_manager
         {
             get; set;
@@ -33,7 +35,8 @@ namespace DataLayer.Entities.Visitas {
         /// <summary>
         /// doente pode ter varios diagnosticos
         /// </summary>
-        public List<Diagnosis> diagnosis
+        [Required]
+        public virtual List<Diagnosis> diagnosis
         {
             get; set;
         }
@@ -42,19 +45,23 @@ namespace DataLayer.Entities.Visitas {
         /// <summary>
         /// O doente pode ter vários medicamentos 
         /// </summary>
+        [Required]
         public virtual List<MedicationManager> Medication_manager {
+            get; set;
+        }
+        public virtual List<Therapy> therapy
+        {
             get; set;
         }
         /// <summary>
         /// o medico
         /// </summary>
-        public Staff Clinic_registry_doctor {
+       
+        public virtual Staff Staff_doctor {
             get; set;
         }
 
-        public TherapyManager Therapy_manager {
-            get; set;
-        }
+       
      
     }
 }
