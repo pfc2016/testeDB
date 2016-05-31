@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDT {
     public class RBCIndices : LabExams{
 
-        [Key]
+     /*   [Key]
         public int RBCIndixes_id {
             get; set;
-        }
+        }*/
 
         public double MCH {
             get; set;
