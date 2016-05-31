@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDT {
     public class LymphocytesSubsets : LabExams{
 
-        [Key]
+     /*   [Key]
         public int Lymphocytes_id {
             get; set;
-        }
+        }*/
         public double Lymphocytes_units
         {
             get; set;
