@@ -12,10 +12,7 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities {
     public class Patient : User {
 
-        [Key]
-        public int Patient_id {
-            get; set;
-        }
+        
 
         public AgeGroup Patient_Age_Group {
             get; set;
