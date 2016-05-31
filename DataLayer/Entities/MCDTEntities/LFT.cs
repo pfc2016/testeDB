@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.MCDT {
     public class LFT : LabExams {
 
-        [Key]
+   /*     [Key]
         public int LFT_id {
             get; set;
         }
-
+        */
         public double SGT {
             get; set;
         }
