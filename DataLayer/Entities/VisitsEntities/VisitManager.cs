@@ -6,17 +6,21 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataLayer.Entities.Visitas {
+    /// <summary>
+    /// unused
+    /// </summary>
     public class VisitManager {
 
         [Key]
         public int VisitManager_id {
             get; set;
         }
-        /// <summary>
-        /// navigation prop
-        /// </summary>
-
-        public ClinicRegistryManager ClinicRegistry_Manager
+       
+        public Visit visit
+        {
+            get; set;
+        }
+        public  Patient patient
         {
             get; set;
         }
