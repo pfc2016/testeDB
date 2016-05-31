@@ -12,16 +12,17 @@ namespace DataLayer.Entities.MCDT {
         public int KFT_id {
             get; set;
         }
+       
 
-        public Units BUN {
+        public double BUN {
             get; set;
         }
 
-        public Units Creatinine {
+        public double Creatinine {
             get; set;
         }
 
-        public Units uricAcid {
+        public double uricAcid {
             get; set;
         }
     }
