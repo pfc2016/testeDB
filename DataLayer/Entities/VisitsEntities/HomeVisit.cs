@@ -10,10 +10,7 @@ using System.Threading.Tasks;
 namespace DataLayer.Entities.Visits {
     public class HomeVisit : Visit {
 
-        [Key]
-        public int HomeVisit_id {
-            get; set;
-        }
+   
         /// <summary>
         /// physicalExam and psychiatricExam
         /// </summary>
