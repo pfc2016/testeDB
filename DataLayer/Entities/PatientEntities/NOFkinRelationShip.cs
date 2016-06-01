@@ -2,6 +2,6 @@
 {
     public enum NOFkinRelationShip
     {
-        father,mother,brother,cousin,grandmother,grandfather,son,daughter
+        father, mother, brother, cousin, grandmother, grandfather, son, daughter
     }
 }
