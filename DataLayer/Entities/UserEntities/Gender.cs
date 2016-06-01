@@ -9,7 +9,7 @@ namespace DataLayer.Entities.UserEntities
     public enum Gender
     {
 
-        male,female
+        male, female
 
 
     }
