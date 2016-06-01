@@ -22,4 +22,6 @@ namespace DataLayer.Entities.PatientEntities {
         }
 
     }
+
+   
 }
